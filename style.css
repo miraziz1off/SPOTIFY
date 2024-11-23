@@ -1,0 +1,51 @@
+* {
+  /* background-color: black; */
+  color: white;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.goodAfternoon{
+  background: linear-gradient(180deg, #3333A3 5.09%, black 33.4%);
+  
+
+}
+
+.musicImage{
+  width: 82px;
+  height: 82px;
+}
+.music1{
+  background: rgba(255, 255, 255, .1);
+}
+.music{
+  display: flex;
+  flex-direction: column;
+  width: 204px;
+  height: 324px;
+  background-color: rgba(255, 255, 255, .2);
+  align-items: center;
+  text-align: start;
+  border-radius: 8px;
+  opacity:.7 ;
+}
+.music img{
+  width: 182px;
+  height: 182px;
+  border-radius: 4px;
+  margin-top:20px ;
+}
+.musicTitle{
+  font-size: 20px;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 700;
+  position: relative;
+  left: -45px;
+  margin-top: 25px;
+}
+.music p:nth-child(3){
+    position: relative;
+  left: 17px;
+}
